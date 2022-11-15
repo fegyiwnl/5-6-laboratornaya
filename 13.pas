@@ -1,4 +1,4 @@
-﻿const 
+const 
   n = 20;
 var a : array[1..n] of integer;
      i, b, c, m : integer;
@@ -17,8 +17,8 @@ begin
       b := i;
   end;
   m := a[c];
-  a[c] := a[c];
+  a[c] := a[b];
   a[b] := m;
   for i := 1 to n do
-    writeln(a[i]);1
+    write(a[i], ' ');
 end.
