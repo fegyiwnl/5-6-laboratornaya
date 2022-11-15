@@ -8,7 +8,7 @@ begin
     end;
   for i := 1 to n do 
     if a[i] > 0 then
-      write(a[i], '0 ')
+      write(' 0',a[i])
     else 
       write(a[i], ' ');
 end.
